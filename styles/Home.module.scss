@@ -12,3 +12,24 @@
     font-size: small;
   }
 }
+
+.profileBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profileButton {
+  font-size: medium;
+  padding: 1rem;
+
+  .letter {
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #ff7ee2, #fc05c5);
+    height: 5rem;
+    width: 5rem;
+    font-size: xx-large;
+    margin-bottom: .5rem;
+  }
+}
