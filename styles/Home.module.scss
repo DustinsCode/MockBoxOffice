@@ -26,6 +26,11 @@
   border-radius: 50%;
   border-width: 5px;
   border-color: white;
+  transition: all .2s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.25);
+  }
   
   .letter {
     // background-image: linear-gradient(45deg, #ff7ee2, #fc05c5);

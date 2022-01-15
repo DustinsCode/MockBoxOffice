@@ -4,10 +4,10 @@ import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   const profiles = [
-    { id: 1, name: 'Dustin' },
-    { id: 2, name: 'Mom' },
-    { id: 3, name: 'Dad' },
-    { id: 4, name: 'Friends' }
+    { id: 1, name: 'Dustin', color: 'pink' },
+    { id: 2, name: 'Mom', color: 'pink' },
+    { id: 3, name: 'Dad', color: 'pink' },
+    { id: 4, name: 'Friends', color: 'pink' }
   ]
 
   return (
